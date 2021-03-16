@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="41100" started-at="2021-03-16T17:10:29 IST" finished-at="2021-03-16T17:11:11 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="41100" started-at="2021-03-16T17:10:29 IST" finished-at="2021-03-16T17:11:11 IST">
+      <class name="tests.Sanity">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.Sanity@1990a65e]" name="beforeClass" is-config="true" duration-ms="14487" started-at="2021-03-16T17:10:29 IST" finished-at="2021-03-16T17:10:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.Sanity@1990a65e]" name="beforeMethod" is-config="true" duration-ms="23" started-at="2021-03-16T17:10:44 IST" finished-at="2021-03-16T17:10:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Sanity.goToRegister() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="goToRegister()[pri:1, instance:tests.Sanity@1990a65e]" name="goToRegister" duration-ms="13349" started-at="2021-03-16T17:10:44 IST" description="Going to registration" finished-at="2021-03-16T17:10:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToRegister -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.Sanity@1990a65e]" name="afterMethod" is-config="true" duration-ms="6162" started-at="2021-03-16T17:10:57 IST" finished-at="2021-03-16T17:11:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToRegister status=SUCCESS method=Sanity.goToRegister()[pri:1, instance:tests.Sanity@1990a65e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.Sanity@1990a65e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-03-16T17:11:04 IST" finished-at="2021-03-16T17:11:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Sanity.selectAccountTypeIM() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="selectAccountTypeIM()[pri:2, instance:tests.Sanity@1990a65e]" name="selectAccountTypeIM" duration-ms="3277" started-at="2021-03-16T17:11:04 IST" description="Select Account type" finished-at="2021-03-16T17:11:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAccountTypeIM -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.Sanity@1990a65e]" name="afterMethod" is-config="true" duration-ms="349" started-at="2021-03-16T17:11:07 IST" finished-at="2021-03-16T17:11:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectAccountTypeIM status=SUCCESS method=Sanity.selectAccountTypeIM()[pri:2, instance:tests.Sanity@1990a65e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.Sanity@1990a65e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-03-16T17:11:07 IST" finished-at="2021-03-16T17:11:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Sanity.selectAccountTypeLookingTo() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="selectAccountTypeLookingTo()[pri:3, instance:tests.Sanity@1990a65e]" name="selectAccountTypeLookingTo" duration-ms="554" started-at="2021-03-16T17:11:07 IST" description="Verify if filter is working" finished-at="2021-03-16T17:11:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAccountTypeLookingTo -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.Sanity@1990a65e]" name="afterMethod" is-config="true" duration-ms="387" started-at="2021-03-16T17:11:08 IST" finished-at="2021-03-16T17:11:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectAccountTypeLookingTo status=SUCCESS method=Sanity.selectAccountTypeLookingTo()[pri:3, instance:tests.Sanity@1990a65e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.Sanity@1990a65e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-03-16T17:11:08 IST" finished-at="2021-03-16T17:11:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.Sanity.verifyURL() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyURL()[pri:4, instance:tests.Sanity@1990a65e]" name="verifyURL" duration-ms="269" started-at="2021-03-16T17:11:08 IST" description="Verify page URL" finished-at="2021-03-16T17:11:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyURL -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.Sanity@1990a65e]" name="afterMethod" is-config="true" duration-ms="326" started-at="2021-03-16T17:11:08 IST" finished-at="2021-03-16T17:11:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyURL status=SUCCESS method=Sanity.verifyURL()[pri:4, instance:tests.Sanity@1990a65e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.Sanity@1990a65e]" name="afterClass" is-config="true" duration-ms="1792" started-at="2021-03-16T17:11:09 IST" finished-at="2021-03-16T17:11:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.Sanity -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

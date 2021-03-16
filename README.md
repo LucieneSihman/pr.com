@@ -1,2 +1,2 @@
 # pr.com
-Payoneer project testing with selenium 
+Payioneer project of testing with Selenium
